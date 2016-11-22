@@ -24,6 +24,7 @@
   "license": "MIT",
   "analyze": true,
   "scripts": {
+    "build": "tsc",
     "test": "grunt all"
   },
   "devDependencies": {

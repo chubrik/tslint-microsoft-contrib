@@ -356,5 +356,5 @@ interface RequireDefine {
 
 // Ambient declarations for 'require' and 'define'
 declare var requirejs: Require;
-declare var require: Require;
+declare var require: { (id: string): any; resolve(id: string): string; cache: any; extensions: any; main: any; };
 declare var define: RequireDefine;

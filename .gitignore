@@ -6,7 +6,7 @@ npm-debug.log
 **/.tscache/
 tscommand-*.tmp.txt
 
-**/dist/
+# **/dist/
 
 # IDEA
 .idea
